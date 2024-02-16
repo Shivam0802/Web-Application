@@ -1,0 +1,212 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    font-size: 13px;
+}
+.container 
+{
+    min-height: 98vh;
+    background-image: url(../IMG/River.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.d-flex
+{
+    display: flex!important;
+}
+
+.justify-content-between
+{
+    justify-content: space-between!important;
+}
+
+@media (max-width: 1199px)
+{.container 
+{
+    background-position: right center;
+}
+}
+
+.inner {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px; 
+    background: hsl(0, 0%, 100%);
+    max-width: 950px;
+    margin: 30px auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgb(25, 25, 25) 15px 15px 10px 0px; 
+}
+
+.inner .left {
+    color: #2a2727e2;
+    background-size: cover;
+    width: 65%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/Hills.jpg);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.inner .left .overlay {
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.inner .left .overlay h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    color: #fffdfd;
+}
+
+.inner .left .overlay p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fffdfd;
+}
+.inner .right 
+{
+    padding-left: 32px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.inner h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inner h3 
+{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inner form{
+    width: 100%;
+    position: relative;
+}
+
+.inner form .form-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.form-wrapper select 
+{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #333;
+    margin-bottom: 17px;
+}
+
+.form-group input:first-child
+{
+    margin-right: 25px;
+}
+
+input
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 17px;
+}
+
+.form-control {
+    border: 1px solid #333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.form-control option
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+}
+
+/* .Check
+{
+   font-size: 15px;
+   font-family: 'Courier', monospace;
+   align-items: center;
+}
+
+.Check a
+{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+} */
+
+.signup
+{
+    font-size: 15px;
+    font-family: 'Courier', monospace;
+    align-items: center;
+}
+
+.signup p
+{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.submit-btn 
+{
+    width: 100%;
+    display: block;
+    background: #3da784;
+    border: none;
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: rgb(25, 25, 25) 5px 5px 15px 0px;
+}
+
+.container a
+{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #0f6d80;
+}
+
+.submit-btn:hover 
+{
+    background: #356b83;
+}

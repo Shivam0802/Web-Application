@@ -1,0 +1,265 @@
+body
+{
+    background-color: #f9f5f5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #2a2828;
+    padding: auto;
+}
+
+.header
+{
+    transition: all 0.5s;
+    z-index: 997;
+    height: 80px;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ .fixed-top
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* z-index: 1030; */
+}
+
+.container
+{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+.d-flex
+{
+    display: flex!important;
+}
+
+align-items-center
+{
+    align-items: center!important;
+}
+
+.justify-content-between
+{
+    justify-content: space-between!important;
+}
+
+.container .logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: crimson;
+    line-height: 2.2;
+}
+
+.btn
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f2f6f5;
+    padding: 8px;
+    border: 2px solid #0c2f50;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+    
+.btn:hover
+{    
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+/* .header .search-bar 
+{
+    min-width: 360px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 550px; 
+} */
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* footer */
+
+.footer
+{
+    background-color: #191a1a;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+}
+.container .footer-top
+{
+    width: 100%;
+    height: 100%;
+     margin: 0 auto;
+    margin-bottom: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row .gy-4
+{
+    width:50%;
+    height: 50%;
+}
+.footer-about
+{
+    width: 50%;
+    height: 50%;
+}
+
+.social-links
+{
+    width: 50%;
+    height: 20%;
+    color: #b6afaf;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.facebook
+{
+    color: #1a2d9b;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.twitter
+{
+    color: #2271b1;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.instagram
+{
+    color: #e1306c;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.linkedin
+{
+    color: #0a436f;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.address
+{
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-left: 30px;
+   margin-right: 20px;
+}
+
+.address h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
+.contact h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer .copyright 
+{
+    text-align: center;
+    padding-top: 35px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright .text
+{
+    font-size: 20px;
+    color: #a44054;
+    margin: 0;
+    font-weight: 600;
+}
+
+.container-s
+{
+    width: 100%;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.scroll-top 
+{
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background: var(--color-primary);
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: rgb(45, 43, 41);
+    color: #ffffff;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+

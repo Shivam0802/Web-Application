@@ -1,0 +1,191 @@
+body
+{
+    background-color: #eeecec;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #2a2828;
+    padding: auto;
+}
+
+section
+{
+    padding: 10px 0;
+    overflow: clip;
+    box-sizing: border-box;
+}
+
+a
+{
+    color: #2a2828;
+    text-decoration: none;
+} 
+
+.d-flex
+{
+    display: flex!important;
+}
+
+align-items-center
+{
+    align-items: center!important;
+}
+
+.justify-content-between
+{
+    justify-content: space-between!important;
+}
+
+.container-fluid
+{
+    width: 99%;
+    padding-right: 15px; 
+    padding-left: 15px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row
+{
+   align-items: center;
+   height: 50%;
+}
+
+/* clients */
+
+.clients 
+{
+    background-color: bisque;
+}
+  
+.clients .client-logo 
+{
+   width: 50%;
+   height: 50%;
+   padding-left: 20px;
+}
+  
+.clients .client-logo img 
+{
+    max-width: 60%;
+    height: 60%;
+    transition: 0.3s;
+    filter: hue-rotate(90deg);
+}
+  
+.clients .client-logo img:hover 
+{
+    filter: none;
+    opacity: 2;
+    transform: scale(1.36);
+}
+
+.containers
+{
+    width: 100%;
+    padding-right: 15px; 
+    padding-left: 15px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.rows
+{
+    align-items: center;
+    padding: 40px;
+    overflow: clip;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.col-lg-4, .col-lg-8
+{
+    padding: 20px;
+}
+
+.content
+{
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    align-self: start;
+}
+
+.content h3
+{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 12px;
+    background: #f5f4f4;
+    border-radius: 14px;
+    box-shadow: 10px 12px 17px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.num
+{
+    font-family: monospace;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #eb133b;
+}
+
+.faq-item h3:hover 
+{
+    color: brown;
+}
+
+.faq-content 
+{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.faq-content p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.faq-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 0;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+.faq-toggle:hover {
+    color: #eb133b;
+}
+
+.faq-active .faq-toggle 
+{
+    transform: rotate(90deg);
+    color: aquamarine;
+}
+

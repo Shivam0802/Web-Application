@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login page for TravelCove">
+    <title>Login-TravelCove</title>
+    <link rel="stylesheet" href="Assets/CSS/login.css">
+</head>
+<body>
+    <div class="container justify-content-between" >
+        <div class="inner"> 
+            <div class="left">
+                <div class="overlay">
+                    <h1><strong>TravelCove</strong></h1>
+                    <p>
+                            TravelCove is a travel agency that provides you with the best travel experience.
+                            We provide you with the best hotels and packages at the best price. 
+                            We also provide you with the best travel guides.  
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <form>
+                    <h2>Login</h2>
+                    <h3>Welcome back to TravelCove &#x1F44F;</h3>
+                    <div class="form">
+                        <input type="text" name="uid" id="txtName" placeholder="Username" class="form-control">
+                    </div>
+                    <div class="form">
+                        <input type="password" id="pwd" name="pwd" placeholder="Password" class="form-control">
+                    </div>
+                    <div class="Check d-flex justify-content-between">
+                        <input type="checkbox" id="Remember" name="item" checked><label for="Remember"><strong>Remember me</strong></label>
+                        <a href="fgtpwd.html">Forget Password?</a>
+                    </div>
+                    <div class="signup">
+                        <p>Not a user? <a href="signup.html"><strong>Signup</strong></a></p>
+                    </div>
+                    <button type="button" name="submit" id="btnSubmit" onclick="submitForm();" class="submit-btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+<script src="Assets/JavaScript/main.js"></script>
+<!-- <script>
+    const pwd = document.getElementById('pwd');
+    pwd.addEventListener('keyup', function(){
+        if(pwd.value.length > 0){
+            pwd.style.borderBottom = '2px solid #00b894';
+        }
+        else{
+            pwd.style.borderBottom = '2px solid #dfe6e9';
+        }
+    })    
+</script> -->
+</html>
